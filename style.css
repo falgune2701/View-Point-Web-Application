@@ -35,13 +35,13 @@
 }
 input{
     padding: 13px;
-    padding-left: 50px;
+    padding-left: 40px;
     border-radius: 8px;
     font-size: 15px;
     color: var(--black);
     outline: none;
     border: 1px solid var(--lime);
-    width: 250px;
+    width: 330px;
     height: 40px;
     /* background-color: rgba(179, 177, 177, 0.773); */
     background-color: transparent;
@@ -79,7 +79,7 @@ input{
     overflow: hidden;
 }
 .card-container:hover{
-    transform: scale(1.08);
+    transform: scale(1.04);
     box-shadow:5px 5px  18px #6cf52d, -5px -5px 18px #6cf52d;
 }
 .img-div img{

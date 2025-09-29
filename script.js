@@ -1,6 +1,10 @@
 import { viewPointsInfo } from "./data.js";
 
 const mainContainer = document.querySelector(".main-container");
+const searchInput = document.querySelector("#input");
+searchInput.addEventListener("keyup", handleSearch)
+let searchValue = "";
+let filteredArrOfViewpoint = [];
  
 const createElement = (element) => document.createElement(element);
 
@@ -76,5 +80,16 @@ const createViewpointCard = (viewPointsInfo) => {
         mainContainer.appendChild(cardContainer);
     });
 }
+ function handleSearch(event){
+    searchValue = event.target.value.toLowerCase();
+    filteredArrOfViewpoint = searchValue?.length > 0 ? viewPointsInfo.filter((viewPoint) => 
+        searchValue === viewPoint.name.toLowerCase() || 
+        searchValue === viewPoint.loc_info.state.toLowerCase() ||
+        searchValue === viewPoint.loc_info.city.toLowerCase()) 
+        : viewPointsInfo;
+    mainContainer.innerHTML = "";
+    createViewpointCard(filteredArrOfViewpoint);    
+}
+
 
 createViewpointCard(viewPointsInfo);
