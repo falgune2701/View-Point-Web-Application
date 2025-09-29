@@ -1,13 +1,19 @@
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --lime: lime;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .fullpage{
-    background: linear-gradient(to left, #70ec36, #4fec07);
+    /* background: linear-gradient(to left, #70ec36, #4fec07); */
+    background-color: var(--white);
 }
-#nav-bar{
-    background: linear-gradient( to left, #84f351, #6cf52d);
+.nav-bar{
+    background-color: lightslategray;
 }
 .nav-items{
     display: flex;
@@ -17,8 +23,10 @@
     padding: 10px;
 }
 #li-1{
-    font-size: large;
+    font-size: 14px;
+    font-weight: bolder;
     cursor: pointer;
+    color: var(--lime);
 }
 #li-2{
     position: relative;
@@ -28,23 +36,93 @@
 input{
     padding: 13px;
     padding-left: 50px;
-    border-radius: 7px;
-    font-size: 17px;
-    color: black;
+    border-radius: 8px;
+    font-size: 15px;
+    color: var(--black);
     outline: none;
-    border: none;
+    border: 1px solid var(--lime);
     width: 250px;
     height: 40px;
-    background-color: rgba(179, 177, 177, 0.773);
+    /* background-color: rgba(179, 177, 177, 0.773); */
+    background-color: transparent;
 }
 #search-icon{
     position: absolute;
     left: 15px;
     text-align: center;
-    font-size: 17px;
-    color: black;
+    font-size: 14px;
+    color: var(--black);
 }
 ::placeholder{
-    color: black;
+    color: var(--black);
+    font-size: 14px;
+}
+.main-container{
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    padding:10px;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.card-container{
+    background-color: aliceblue;
+    border: 2px solid var(--lime);
+    border-radius: 7px;
+    width: 270px;
+    height: 330px;
+    box-shadow: 2px 2px 1px var(--lime);
+    cursor: pointer;
+    transition: 1s ease;
+    overflow: hidden;
+}
+.card-container:hover{
+    transform: scale(1.08);
+    box-shadow:5px 5px  18px #6cf52d, -5px -5px 18px #6cf52d;
+}
+.img-div img{
+    width: 100%;
+    height: 50%;
+    border-radius: 7px 7px 0 0;
+}
+.details, .more-info{
+    margin: 10px;
+}
+h3{
+    font-size: 22px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.loc-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 17px;
+    color: var(--black);
+}
+#loc-logo{
+    color: var(--lime);
+}
+button{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    padding: 12px 7px;
+    /* background-color: rgb(104, 255, 104); */
+    background-color: var(--white);
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--black);
+    color: rgb(40, 39, 39);
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px var(--black);
+}
+
+button:hover{
+    background-color: #1af961;
+    color: rgb(64, 64, 64);
 }
