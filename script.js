@@ -1,8 +1,9 @@
 import { viewPointsInfo } from "./data.js";
 
 const mainContainer = document.querySelector(".main-container");
-const searchInput = document.querySelector("#input");
-searchInput.addEventListener("keyup", handleSearch)
+const searchInput = document.querySelector(".input");
+const selectState = document.querySelector(".select-state");
+let state = "";
 let searchValue = "";
 let filteredArrOfViewpoint = [];
  
@@ -48,15 +49,19 @@ const createViewpointCard = (viewPointsInfo) => {
          } else{
             locEle.innerText = "Location Information not Available"
          }
-        // create location logo
-        const logoEle = createElement("i")
-        logoEle.classList.add("fa-solid", "fa-location-dot");
-        logoEle.setAttribute("id", "loc-logo");
+        // create location icon
+        const locIcon = createElement("i")
+        locIcon.classList.add("fa-solid", "fa-location-dot");
+        locIcon.setAttribute("id", "loc-logo");
 
         locInfoEle.appendChild(locEle);
-        locInfoEle.appendChild(logoEle);
+        locInfoEle.appendChild(locIcon);
         cardDetails.appendChild(vpNameEle);
         cardDetails.appendChild(locInfoEle);
+
+        // create butAndRatingCon container
+        const butAndRatingCon = createElement("div")
+        butAndRatingCon.classList.add("but-rat")
 
         // create moreinfo container
         const moreInfoEle = createElement("div");
@@ -68,28 +73,71 @@ const createViewpointCard = (viewPointsInfo) => {
         // create moreinfo button
         const butEle = createElement("button");
         butEle.innerText = "More Info";
-        const arrowEle = createElement("i");
-        arrowEle.classList.add("fa-solid", "fa-arrow-right");
-        butEle.appendChild(arrowEle);
+        //create arrow icon
+        const arrowIcon = createElement("i");
+        arrowIcon.classList.add("fa-solid", "fa-arrow-right");
+        butEle.appendChild(arrowIcon);
         moreInfoEle.appendChild(butEle);
+
+        //create rating container
+        const ratingEle = createElement("div");
+        ratingEle.classList.add("rating");
+
+        // create star icon
+        const starIcon = createElement("i");
+        starIcon.classList.add("fa-solid", "fa-star");
+        ratingEle.appendChild(starIcon);
+
+        const starText = createElement("span");
+        starText.innerText = viewPoint.star;
+        ratingEle.appendChild(starText);
+        butAndRatingCon.appendChild(moreInfoEle);
+        butAndRatingCon.appendChild(ratingEle)
 
         cardContainer.appendChild(imgContainer);
         cardContainer.appendChild(cardDetails);
-        cardContainer.appendChild(moreInfoEle);
+        cardContainer.appendChild(butAndRatingCon);
+        // cardContainer.appendChild(ratingEle);
 
         mainContainer.appendChild(cardContainer);
     });
 }
+
+function getFilterData () {
+   filteredArrOfViewpoint = searchValue?.length > 0 ? viewPointsInfo.filter((viewPoint) => 
+        searchValue === viewPoint.name.toLowerCase() ||
+        searchValue === viewPoint.loc_info.state.toLowerCase()  
+        ) 
+        : viewPointsInfo;
+        return filteredArrOfViewpoint;
+}
  function handleSearch(event){
     searchValue = event.target.value.toLowerCase();
-    filteredArrOfViewpoint = searchValue?.length > 0 ? viewPointsInfo.filter((viewPoint) => 
-        searchValue === viewPoint.name.toLowerCase() || 
-        searchValue === viewPoint.loc_info.state.toLowerCase() ||
-        searchValue === viewPoint.loc_info.city.toLowerCase()) 
-        : viewPointsInfo;
+    let filterBySearch = getFilterData();
     mainContainer.innerHTML = "";
-    createViewpointCard(filteredArrOfViewpoint);    
+    createViewpointCard(filterBySearch);    
+}
+//  function handleStateSelector (event){
+//     state = event.target.value.toLowerCase();
+//     filteredArrOfViewpoint =  state?.length > 0 ?viewPointsInfo.filter((viewPoint) => 
+//         state === viewPoint.loc_info.state.toLowerCase()
+//     )
+//     : viewPointsInfo;
+//     mainContainer.innerHTML = "";
+//     createViewpointCard(filteredArrOfViewpoint);
+//  }
+function debounce (callback, delay){
+    let timerId;
+    return (...args) => {
+        clearTimeout(timerId);
+        timerId = setTimeout(() => {
+            callback(...args);
+        }, delay);
+    }
 }
 
+const debouncedInput =  debounce(handleSearch, 800); 
+searchInput.addEventListener("keyup", debouncedInput);
+// selectState.addEventListener("change",handleStateSelector);
 
 createViewpointCard(viewPointsInfo);

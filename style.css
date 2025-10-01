@@ -14,6 +14,7 @@
 }
 .nav-bar{
     background-color: lightslategray;
+    height: auto;
 }
 .nav-items{
     display: flex;
@@ -23,9 +24,15 @@
     padding: 10px;
 }
 #li-1{
+    display: flex;
+    align-items: center;
     font-size: 14px;
     font-weight: bolder;
     cursor: pointer;
+    color: var(--lime);
+}
+.fa-mountain{
+    font-size: 20px;
     color: var(--lime);
 }
 #li-2{
@@ -33,8 +40,8 @@
     display: flex;
     align-items: center;
 }
-input{
-    padding: 13px;
+.input{
+    padding: 10px;
     padding-left: 40px;
     border-radius: 8px;
     font-size: 15px;
@@ -43,8 +50,8 @@ input{
     border: 1px solid var(--lime);
     width: 330px;
     height: 40px;
-    /* background-color: rgba(179, 177, 177, 0.773); */
-    background-color: transparent;
+    background-color: rgba(179, 177, 177, 0.773);
+    /* background-color: transparent; */
 }
 #search-icon{
     position: absolute;
@@ -56,6 +63,15 @@ input{
 ::placeholder{
     color: var(--black);
     font-size: 14px;
+}
+.select-state{
+    padding: 8px;
+    border: 1px solid var(--lime);
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    /* background: transparent; */
+    background-color: rgba(179, 177, 177, 0.773);
 }
 .main-container{
     align-items: center;
@@ -74,7 +90,6 @@ input{
     width: 270px;
     height: 330px;
     box-shadow: 2px 2px 1px var(--lime);
-    cursor: pointer;
     transition: 1s ease;
     overflow: hidden;
 }
@@ -87,7 +102,7 @@ input{
     height: 50%;
     border-radius: 7px 7px 0 0;
 }
-.details, .more-info{
+.details, .more-info, .rating{
     margin: 10px;
 }
 h3{
@@ -102,8 +117,14 @@ h3{
     font-size: 17px;
     color: var(--black);
 }
-#loc-logo{
+.fa-location-dot{
     color: var(--lime);
+    font-size: 20px;
+}
+.but-rat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 button{
     gap: 5px;
@@ -122,6 +143,13 @@ button{
     box-shadow: 1px 1px 1px var(--black);
 }
 
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
 button:hover{
     background-color: #1af961;
     color: rgb(64, 64, 64);

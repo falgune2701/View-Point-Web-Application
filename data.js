@@ -6,7 +6,8 @@
             city:"Darjeeling",
             state:"West Bengal"
         },
-        moreInfoUrl: "https://en.wikipedia.org/wiki/Tiger_Hill,_Darjeeling"
+        moreInfoUrl: "https://en.wikipedia.org/wiki/Tiger_Hill,_Darjeeling",
+        star: 8.5
     },
     {
         name:"Nandi Hills",
@@ -15,7 +16,8 @@
             city:"Chikkaballapur",
             state:"Karnataka"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nandi_Hills,_India"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nandi_Hills,_India",
+        star: 7.0
     },
     {
         name:"Rohtang Pass",
@@ -24,7 +26,8 @@
             city:"Manali",
             state:"Himachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Rohtang_Pass"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Rohtang_Pass",
+        star: 8.0
     },
     {
         name:"Snow View Point",
@@ -33,7 +36,8 @@
             city:"Nainital",
             state:"Uttarakhand"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital",
+        star: 7.0
     },
     {
         name:"Arthur's Seat",
@@ -42,7 +46,8 @@
             city:"Edinburgh",
             state:"Maharashtra"
         },
-         moreInfoUrl:"https://en.wikipedia.org/wiki/Arthur%27s_Seat"
+         moreInfoUrl:"https://en.wikipedia.org/wiki/Arthur%27s_Seat",
+        star: 7.4 
     },
     {
         name:"Kufri View Point",
@@ -51,7 +56,8 @@
             city:"Shimla",
             state:"Himachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Kufri,_India"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Kufri,_India",
+        star: 6.5
     },
     {
         name:"Echo Point",
@@ -60,7 +66,8 @@
             city:"Munnar",
             state:"Kerala"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Echo_Point"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Echo_Point",
+        star: 6.0
     },
     {
         name:"Anjaneri Hills",
@@ -69,7 +76,8 @@
             city:"Nashik",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Anjaneri"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Anjaneri",
+        star: 7.5
     },
     {
         name:"Kodaikanal Pillar Rocks",
@@ -78,7 +86,8 @@
             city:"Kodaikanal",
             state:"Tamil Nadu"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Kodaikanal"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Kodaikanal",
+        star: 7.5
     },
     {
         name:"Doddabetta Peak",
@@ -87,7 +96,8 @@
             city:"Ooty",
             state:"Tamil Nadu"
         },
-         moreInfoUrl:"https://en.wikipedia.org/wiki/Doddabetta"
+         moreInfoUrl:"https://en.wikipedia.org/wiki/Doddabetta",
+         star: 7.0
     },
     {
         name:"Coonoor Dolphin’s Nose",
@@ -96,7 +106,8 @@
             city:"Pelling",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Dolphin%27s_Nose,_Coonoor"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Dolphin%27s_Nose,_Coonoor",
+        star: 8.0
     },
     {
         name:"Wilson Hills",
@@ -105,7 +116,8 @@
             city:"Valsad",
             state:"Gujarat"
         },
-         moreInfoUrl:"https://en.wikipedia.org/wiki/Wilson_Hills"
+         moreInfoUrl:"https://en.wikipedia.org/wiki/Wilson_Hills",
+         star: 7.0
     },
     {
          name:"Tiffin Top",
@@ -114,7 +126,8 @@
             city:"Nainital",
             state:"Uttarakhand"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital",
+        star: 7.5
     },
     {
          name:"Gulmarg Gondola Peak",
@@ -123,7 +136,8 @@
             city:"Gulmarg",
             state:"Jammu & Kashmir"
         },
-         moreInfoUrl:"https://en.wikipedia.org/wiki/Gulmarg_Gondola"
+         moreInfoUrl:"https://en.wikipedia.org/wiki/Gulmarg_Gondola",
+         star: 9.5
     },
     {
         name:"Patnitop View Point",
@@ -132,7 +146,8 @@
             city:"Patnitop",
             state:"Jammu & Kashmir"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Patnitop"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Patnitop",
+        star: 7.0
     },
     {
         name:"Nubra Valley",
@@ -141,7 +156,8 @@
             city:"Leh",
             state:"Ladakh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nubra"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nubra",
+        star: 9.0
     },
     {
         name:"Shanti Stupa",
@@ -150,7 +166,8 @@
             city:"Leh",
             state:"Ladakh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Shanti_Stupa,_Ladakh"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Shanti_Stupa,_Ladakh",
+        star: 8.0
     },
      {
         name:"Zuluk Zig Zag",
@@ -159,7 +176,8 @@
             city:"Zuluk",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Dzuluk"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Dzuluk",
+        star: 9.0
     },
     {
         name:"Phugtal Monastery View",
@@ -168,7 +186,8 @@
             city:"Zanskar",
             state:"Ladakh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Phugtal_Monastery"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Phugtal_Monastery",
+        star:9.5
     },
     {
         name:"Chopta Tungnath",
@@ -177,7 +196,8 @@
             city:"Chopta",
             state:"Uttarakhand"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Chopta"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Chopta",
+        star: 9.0
     },
     {
         name:"Ranikhet Majkhali View",
@@ -186,7 +206,8 @@
             city:"Ranikhet",
             state:"Uttarakhand"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Ranikhet"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Ranikhet",
+        star: 8.0
     },
     {
         name:"Kurseong Eagle’s Crag",
@@ -195,7 +216,8 @@
             city:"Kurseong",
             state:"West Bengal"
         },
-        moreInfoUrl:"https://darjeelingoffbeat.com/eagles-crag-kurseong/"
+        moreInfoUrl:"https://darjeelingoffbeat.com/eagles-crag-kurseong/",
+        star: 7.5
     },
     {
         name:"Kalimpong Deolo Hill",
@@ -204,7 +226,8 @@
             city:"Kalimpong",
             state:"West Bengal"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Deolo_Hill"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Deolo_Hill",
+        star: 8.0
     },
     {
         name:"Tawang Hilltop",
@@ -213,7 +236,8 @@
             city:"Tawang",
             state:"Arunachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Tawang"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Tawang",
+        star: 8.5
     },
     {
         name:"Bomdila View Point",
@@ -222,7 +246,8 @@
             city:"Bomdila",
             state:"Arunachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Bomdila"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Bomdila",
+        star: 7.5
     },
     {
         name:"Ziro Valley View",
@@ -231,7 +256,8 @@
             city:"Ziro",
             state:"Arunachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Ziro"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Ziro",
+        star: 9.0
     },
     {
         name:"Mount Kanchenjunga",
@@ -240,7 +266,8 @@
             city:"Yuksom",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Kangchenjunga"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Kangchenjunga",
+        star: 10
     },
     {
         name:"Sandakphu Peak",
@@ -249,7 +276,8 @@
             city:"Manebhanjan",
             state:"West Bengal"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Sandakphu"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Sandakphu",
+        star: 9.5
     },
     {
         name:"Lachen Gurudongmar",
@@ -258,7 +286,8 @@
             city:"Lachen",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Gurudongmar_Lake"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Gurudongmar_Lake",
+        star: 9.0
     },
     {
         name:"Lachung Yumthang Valley",
@@ -267,7 +296,8 @@
             city:"Lachung",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Yumthang_Valley_of_Flowers"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Yumthang_Valley_of_Flowers",
+        star: 8.5
     },
     {
         name:"Rajmachi Fort View",
@@ -276,7 +306,8 @@
             city:"Lonavala",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Rajmachi"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Rajmachi",
+        star: 8.5
     },
     {
         name:"Lion’s Point",
@@ -285,7 +316,8 @@
             city:"Lonavala",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Lonavala"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Lonavala",
+        star: 7.5
     },
     {
         name:"Panhalgad View",
@@ -294,7 +326,8 @@
             city:"Kolhapur",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Panhala"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Panhala",
+        star:8.0
     },
     {
         name:"Kalsubai Peak",
@@ -303,7 +336,8 @@
             city:"Bhandardara",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Kalsubai"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Kalsubai",
+        star: 8.5
     },
     {
         name:"Harihar Fort View",
@@ -312,7 +346,8 @@
             city:"Igatpuri",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort",
+        star: 9.0
     },
     {
         name:"Ratangad Fort View",
@@ -321,7 +356,8 @@
             city:"Bhandardara",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort",
+        star: 8.5
     },
     {
         name:"Louisa Point",
@@ -330,7 +366,8 @@
             city:"Matheran",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://ceb.wikipedia.org/wiki/Louisa_Point"
+        moreInfoUrl:"https://ceb.wikipedia.org/wiki/Louisa_Point",
+        star: 8.0
     },
     {
         name:"Echo Point",
@@ -339,7 +376,8 @@
             city:"Matheran",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Matheran"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Matheran",
+        star: 7.0
     },
     {
         name:"Sajjangad Hill View",
@@ -348,7 +386,8 @@
             city:"Satara",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Sajjangad"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Sajjangad",
+        star: 7.5
     },
     {
         name:"Ajinkyatara Fort View",
@@ -357,7 +396,8 @@
             city:"Satara",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Ajinkyatara"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Ajinkyatara",
+        star: 8.0
     },
     {
         name:"Torana Fort View",
@@ -366,6 +406,7 @@
             city:"Pune",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Torna_Fort"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Torna_Fort",
+        star: 9.0
     },
 ];
