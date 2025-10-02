@@ -281,7 +281,7 @@
     },
     {
         name:"Lachen Gurudongmar",
-        img_url:"https://res.cloudinary.com/kmadmin/image/upload/v1618490887/kiomoi/Lachen_Gurudongmar_Lake_1618490886395.jpg",
+        img_url:"https://www.taleof2backpackers.com/wp-content/uploads/2017/10/Gurudongmar-lake-13.jpg",
         loc_info:{
             city:"Lachen",
             state:"Sikkim"
@@ -341,7 +341,7 @@
     },
     {
         name:"Harihar Fort View",
-        img_url:"https://static.toiimg.com/thumb/msid-122145020,width-1280,height-720,resizemode-4/122145020.jpg",
+        img_url:"https://www.traveltwilight.com/wp-content/uploads/2021/09/260789849_1097438380994422_6987292434751836812_n-e1658515264119.jpg",
         loc_info:{
             city:"Igatpuri",
             state:"Maharashtra"
@@ -361,7 +361,7 @@
     },
     {
         name:"Louisa Point",
-        img_url:"https://res.cloudinary.com/kmadmin/image/upload/v1723889069/kiomoi/Louisa_point_6461.jpg",
+        img_url:"https://media-cdn.tripadvisor.com/media/photo-s/09/a2/c9/36/louisa-point.jpg",
         loc_info:{
             city:"Matheran",
             state:"Maharashtra"
@@ -381,7 +381,7 @@
     },
     {
         name:"Sajjangad Hill View",
-        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqF3DteNYWcEDcx5zVKUA6CLqkvEHkvV85F3qjAyth7g3mdVBPT81fI2lHpGsQpnm4lH8&usqp=CAU",
+        img_url:"https://enjoyweekends.com/travel-vacation-holiday-resort/assets/images/Destination/Sajjangad1.jpg",
         loc_info:{
             city:"Satara",
             state:"Maharashtra"
@@ -391,7 +391,7 @@
     },
     {
         name:"Ajinkyatara Fort View",
-        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIAfxAA5qzabdlcwnLtaiRsX31wRzGpK6qNQ&s",
+        img_url:"https://kaspatharflowervalley.com/wp-content/uploads/2023/06/ajinkyatara-1.jpg",
         loc_info:{
             city:"Satara",
             state:"Maharashtra"
@@ -401,7 +401,7 @@
     },
     {
         name:"Torana Fort View",
-        img_url:"https://www.treksandtrails.org/system/images/000/411/131/bc808389377ea7a94f3a9de318c2b38e/original/Zunzar_Machi_at_Torna.jpg",
+        img_url:"https://dq1q7qkthxkc0.cloudfront.net/UpdatedMedia/4c506fc4-4457-4d83-87d0-c6e03c966c7a.webp",
         loc_info:{
             city:"Pune",
             state:"Maharashtra"
@@ -409,4 +409,148 @@
         moreInfoUrl:"https://en.wikipedia.org/wiki/Torna_Fort",
         star: 9.0
     },
-];
+    {
+        name:"Tikona Fort View",
+        img_url:"https://dq1q7qkthxkc0.cloudfront.net/thumbnails/411x274/UpdatedMedia/e297e935-9246-4fcf-8731-eacbe9380ca5.webp",
+        loc_info:{
+            city:"Pune",
+            state:"Maharashtra"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Tikona"
+    },
+    {
+        name:"Dzukou Valley",
+        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/8e/e2/01/get-lost.jpg?w=1200&h=-1&s=1",
+        loc_info:{
+            city:"Viswema",
+            state:"Nagaland"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Dz%C3%BCko_Valley"
+    },
+    {
+        name:"Solang Valley",
+        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b2/79/37/solang-valley-manali.jpg?w=1200&h=-1&s=1",
+        loc_info:{
+            city:"Manali",
+            state:"Himachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Solang_Valley"
+    },
+    {
+        name:"Triund Hill",
+        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/42/10/8e/triund-hill.jpg?w=1200&h=-1&s=1",
+        loc_info:{
+            city:"McLeod Ganj",
+            state:"Himachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Triund"
+    },
+    {
+        name:"Khajjiar View",
+        img_url:"https://hblimg.mmtcdn.com/content/hubble/img/Dest_img/mmt/activities/m_Khajjiar_destination_image_2025jan_1_l_768_1152.jpg",
+        loc_info:{
+            city:"Dalhousie",
+            state:"Himachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Khajjiar_Lake"
+    },
+    {
+        name:"Betaab Valley",
+        img_url:"https://www.kashmirtourpackage.org/wp-content/uploads/2014/03/Betaab-Valley-1.jpg",
+        loc_info:{
+            city:"Pahalgam",
+            state:"Jammu & Kashmir"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Betaab_Valley"
+    },
+    {
+        name:"Pahalgam Aru Valley",
+        img_url:"https://www.tourmyindia.com/states/jammu-kashmir/image/aru-valley-pahalgam2.jpg",
+        loc_info:{
+            city:"Pahalgam",
+            state:"Jammu & Kashmir"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Aru,_Jammu_and_Kashmir"
+    },
+    {
+        name:"Umiam Lake",
+        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/b3/91/22/amazing-umium-lake.jpg?w=1200&h=-1&s=1",
+        loc_info:{
+            city:"Shillong",
+            state:"Meghalaya"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Umiam_Lake"
+    },
+    {
+        name:"Mawsynram View",
+        img_url:"https://www.tataneu.com/pages/travel/_next/image?url=https%3A%2F%2Fd1msew97rp2nin.cloudfront.net%2Fprodin%2Ftntravel%2Fblogimages%2Ffaqs-about-mawsynram-wettest-place-on-earth-explained-001d764b-94fe-4353-ae1a-143d568ea9b5.webp&w=3840&q=75",
+        loc_info:{
+            city:"Mawsynram",
+            state:"Meghalaya"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Mawsynram"
+    },
+    {
+        name:"Nohkalikai Falls",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHZFUjUg-jeVWG0L8auoCD_u5ntF6ZECbnPA&s",
+        loc_info:{
+            city:"Cherrapunji",
+            state:"Meghalaya"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nohkalikai_Falls"
+    },
+    {
+        name:"Mechuka Valley",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYuvFrvIKqJWXipbfi6QHB8uCpZ_Mv0FWBAQ&s",
+        loc_info:{
+            city:"Mechuka",
+            state:"Arunachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Mechuka"
+    },
+    {
+        name:"Bomdila View Point",
+        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/79/b1/da/valley-view-from-top.jpg?w=1200&h=-1&s=1",
+        loc_info:{
+            city:"Bomdila",
+            state:"Arunachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Bomdila"
+    },
+    {
+        name:"Sela Pass",
+        img_url:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Tawang_Gate.jpg",
+        loc_info:{
+            city:"Tawang",
+            state:"Arunachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Sela_Pass"
+    },
+    {
+        name:"Nathu La Pass View Point",
+        img_url:"https://www.tusktravel.com/blog/wp-content/uploads/2019/08/Gangtok-Nathula-Pass.jpg",
+        loc_info:{
+            city:"Gangtok",
+            state:"Sikkim"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La"
+    },
+    {
+        name:"Gurudongmar Lake",
+        img_url:"https://travelgangtok.com/storage/290/01J62HF163DRAWXKK1H9875B4T.jpg",
+        loc_info:{
+            city:"Lachen",
+            state:"Sikkim"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La"
+    },
+    {
+        name:"George Everest Peak",
+        img_url:"https://planmypackage.gumlet.io/images/blog_posts/31409.jpg",
+        loc_info:{
+            city:"Mussoorie",
+            state:"Uttarakhand"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La"
+    },
+ ]
