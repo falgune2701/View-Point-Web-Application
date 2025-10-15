@@ -2,8 +2,8 @@ import { viewPointsInfo } from "./data.js";
 
 const mainContainer = document.querySelector(".main-container");
 const searchInput = document.querySelector(".input");
-const selectState = document.querySelector(".select-state");
-let state = "";
+const selectRating = document.querySelector(".select-rating");
+let ratingValue = "0";
 let searchValue = "";
 let filteredArrOfViewpoint = [];
  
@@ -103,29 +103,42 @@ const createViewpointCard = (viewPointsInfo) => {
     });
 }
 
+
+// here write a function for filtering the data based on user input value 
 function getFilterData () {
    filteredArrOfViewpoint = searchValue?.length > 0 ? viewPointsInfo.filter((viewPoint) => 
         searchValue === viewPoint.name.toLowerCase() ||
-        searchValue === viewPoint.loc_info.state.toLowerCase()  
+        searchValue === viewPoint.loc_info.state.toLowerCase()
         ) 
         : viewPointsInfo;
+
+        if(ratingValue > 0){
+            filteredArrOfViewpoint = searchValue?.length > 0 ? filteredArrOfViewpoint : viewPointsInfo;
+            filteredArrOfViewpoint = filteredArrOfViewpoint.filter((viewPoint) => ratingValue <= viewPoint.star);
+        }
         return filteredArrOfViewpoint;
 }
+
+// start handleSearch function
  function handleSearch(event){
     searchValue = event.target.value.toLowerCase();
     let filterBySearch = getFilterData();
     mainContainer.innerHTML = "";
     createViewpointCard(filterBySearch);    
 }
-//  function handleStateSelector (event){
-//     state = event.target.value.toLowerCase();
-//     filteredArrOfViewpoint =  state?.length > 0 ?viewPointsInfo.filter((viewPoint) => 
-//         state === viewPoint.loc_info.state.toLowerCase()
-//     )
-//     : viewPointsInfo;
-//     mainContainer.innerHTML = "";
-//     createViewpointCard(filteredArrOfViewpoint);
-//  }
+// end handleSearch function
+
+// start handleRating function based on rating show the matcching viewpoint card
+selectRating.addEventListener("change",handleRating);
+function handleRating(event){
+    ratingValue = Number(event.target.value);
+    let filterByRatig = getFilterData();
+    mainContainer.innerHTML = "";
+    createViewpointCard(ratingValue ? filterByRatig : viewPointsInfo); 
+}
+// end handleRating function
+
+
 function debounce (callback, delay){
     let timerId;
     return (...args) => {
@@ -138,6 +151,6 @@ function debounce (callback, delay){
 
 const debouncedInput =  debounce(handleSearch, 800); 
 searchInput.addEventListener("keyup", debouncedInput);
-// selectState.addEventListener("change",handleStateSelector);
 
 createViewpointCard(viewPointsInfo);
+

@@ -7,7 +7,7 @@
             state:"West Bengal"
         },
         moreInfoUrl: "https://en.wikipedia.org/wiki/Tiger_Hill,_Darjeeling",
-        star: 8.5
+        star: "8.5"
     },
     {
         name:"Nandi Hills",
@@ -17,7 +17,7 @@
             state:"Karnataka"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nandi_Hills,_India",
-        star: 7.0
+        star: "7.0"
     },
     {
         name:"Rohtang Pass",
@@ -27,7 +27,7 @@
             state:"Himachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Rohtang_Pass",
-        star: 8.0
+        star: "8.0"
     },
     {
         name:"Snow View Point",
@@ -37,7 +37,7 @@
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital",
-        star: 7.0
+        star: "7.0"
     },
     {
         name:"Arthur's Seat",
@@ -47,7 +47,7 @@
             state:"Maharashtra"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Arthur%27s_Seat",
-        star: 7.4 
+        star: "7.4"
     },
     {
         name:"Kufri View Point",
@@ -57,7 +57,7 @@
             state:"Himachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kufri,_India",
-        star: 6.5
+        star: "6.5"
     },
     {
         name:"Echo Point",
@@ -67,7 +67,7 @@
             state:"Kerala"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Echo_Point",
-        star: 6.0
+        star: "6.0"
     },
     {
         name:"Anjaneri Hills",
@@ -77,7 +77,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Anjaneri",
-        star: 7.5
+        star:"7.5"
     },
     {
         name:"Kodaikanal Pillar Rocks",
@@ -87,7 +87,7 @@
             state:"Tamil Nadu"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kodaikanal",
-        star: 7.5
+        star: "7.5"
     },
     {
         name:"Doddabetta Peak",
@@ -97,7 +97,7 @@
             state:"Tamil Nadu"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Doddabetta",
-         star: 7.0
+         star: "7.0"
     },
     {
         name:"Coonoor Dolphin’s Nose",
@@ -107,7 +107,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Dolphin%27s_Nose,_Coonoor",
-        star: 8.0
+        star: "8.0"
     },
     {
         name:"Wilson Hills",
@@ -117,7 +117,7 @@
             state:"Gujarat"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Wilson_Hills",
-         star: 7.0
+         star: "7.0"
     },
     {
          name:"Tiffin Top",
@@ -127,7 +127,7 @@
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital",
-        star: 7.5
+        star: "7.5"
     },
     {
          name:"Gulmarg Gondola Peak",
@@ -137,7 +137,7 @@
             state:"Jammu & Kashmir"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Gulmarg_Gondola",
-         star: 9.5
+         star: "9.5"
     },
     {
         name:"Patnitop View Point",
@@ -147,7 +147,7 @@
             state:"Jammu & Kashmir"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Patnitop",
-        star: 7.0
+        star: "7.0"
     },
     {
         name:"Nubra Valley",
@@ -157,7 +157,7 @@
             state:"Ladakh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nubra",
-        star: 9.0
+        star: "9.0"
     },
     {
         name:"Shanti Stupa",
@@ -167,7 +167,7 @@
             state:"Ladakh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Shanti_Stupa,_Ladakh",
-        star: 8.0
+        star: "8.0"
     },
      {
         name:"Zuluk Zig Zag",
@@ -177,7 +177,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Dzuluk",
-        star: 9.0
+        star: "9.0"
     },
     {
         name:"Phugtal Monastery View",
@@ -187,7 +187,7 @@
             state:"Ladakh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Phugtal_Monastery",
-        star:9.5
+        star: "9.5"
     },
     {
         name:"Chopta Tungnath",
@@ -197,7 +197,7 @@
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Chopta",
-        star: 9.0
+        star: "9.0"
     },
     {
         name:"Ranikhet Majkhali View",
@@ -207,7 +207,7 @@
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Ranikhet",
-        star: 8.0
+        star: "8.0"
     },
     {
         name:"Kurseong Eagle’s Crag",
@@ -217,17 +217,17 @@
             state:"West Bengal"
         },
         moreInfoUrl:"https://darjeelingoffbeat.com/eagles-crag-kurseong/",
-        star: 7.5
+        star: "7.5"
     },
     {
         name:"Kalimpong Deolo Hill",
-        img_url:"https://1001things.org/wp-content/uploads/2014/12/Deolo-featured-image-Kalimpong.jpg",
+        img_url:"https://1001things.org/wp-content/uploads/2014/12/Deolo-featured-image-Kalimpong.webp",
         loc_info:{
             city:"Kalimpong",
             state:"West Bengal"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Deolo_Hill",
-        star: 8.0
+        star: "8.0"
     },
     {
         name:"Tawang Hilltop",
@@ -237,7 +237,7 @@
             state:"Arunachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Tawang",
-        star: 8.5
+        star: "8.5"
     },
     {
         name:"Bomdila View Point",
@@ -247,7 +247,7 @@
             state:"Arunachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Bomdila",
-        star: 7.5
+        star: "7.5"
     },
     {
         name:"Ziro Valley View",
@@ -257,7 +257,7 @@
             state:"Arunachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Ziro",
-        star: 9.0
+        star: "9.0"
     },
     {
         name:"Mount Kanchenjunga",
@@ -267,7 +267,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kangchenjunga",
-        star: 10
+        star: "10"
     },
     {
         name:"Sandakphu Peak",
@@ -277,7 +277,7 @@
             state:"West Bengal"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Sandakphu",
-        star: 9.5
+        star: "9.5"
     },
     {
         name:"Lachen Gurudongmar",
@@ -287,7 +287,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Gurudongmar_Lake",
-        star: 9.0
+        star: "9.0"
     },
     {
         name:"Lachung Yumthang Valley",
@@ -297,7 +297,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Yumthang_Valley_of_Flowers",
-        star: 8.5
+        star: "8.5"
     },
     {
         name:"Rajmachi Fort View",
@@ -307,7 +307,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Rajmachi",
-        star: 8.5
+        star: "8.5"
     },
     {
         name:"Lion’s Point",
@@ -317,7 +317,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Lonavala",
-        star: 7.5
+        star: "7.5"
     },
     {
         name:"Panhalgad View",
@@ -327,7 +327,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Panhala",
-        star:8.0
+        star:"8.0"
     },
     {
         name:"Kalsubai Peak",
@@ -337,7 +337,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kalsubai",
-        star: 8.5
+        star: "8.5"
     },
     {
         name:"Harihar Fort View",
@@ -347,7 +347,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort",
-        star: 9.0
+        star: "9.0"
     },
     {
         name:"Ratangad Fort View",
@@ -357,7 +357,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort",
-        star: 8.5
+        star: "8.5"
     },
     {
         name:"Louisa Point",
@@ -367,7 +367,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://ceb.wikipedia.org/wiki/Louisa_Point",
-        star: 8.0
+        star: "8.0"
     },
     {
         name:"Echo Point",
@@ -377,7 +377,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Matheran",
-        star: 7.0
+        star: "7.0"
     },
     {
         name:"Sajjangad Hill View",
@@ -387,7 +387,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Sajjangad",
-        star: 7.5
+        star: "7.5"
     },
     {
         name:"Ajinkyatara Fort View",
@@ -397,7 +397,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Ajinkyatara",
-        star: 8.0
+        star: "8.0"
     },
     {
         name:"Torana Fort View",
@@ -407,7 +407,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Torna_Fort",
-        star: 9.0
+        star: "9.0"
     },
     {
         name:"Tikona Fort View",
@@ -509,15 +509,6 @@
         moreInfoUrl:"https://en.wikipedia.org/wiki/Mechuka"
     },
     {
-        name:"Bomdila View Point",
-        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/79/b1/da/valley-view-from-top.jpg?w=1200&h=-1&s=1",
-        loc_info:{
-            city:"Bomdila",
-            state:"Arunachal Pradesh"
-        },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Bomdila"
-    },
-    {
         name:"Sela Pass",
         img_url:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Tawang_Gate.jpg",
         loc_info:{
@@ -552,5 +543,41 @@
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La"
+    },
+    {
+        name:"Tsomgo Lake View Point",
+        img_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg/1200px-Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg",
+        loc_info:{
+            city:"Gangtok",
+            state:"Sikkim"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Lake_Tsomgo"
+    },
+    {
+        name:"Gurudongmar Lake View Point",
+        img_url:"https://s7ap1.scene7.com/is/image/incredibleindia/gurudongmar-lake-mangan-sikkim-2-attr-hero?qlt=82&ts=1726655839775",
+        loc_info:{
+            city:"Lachen",
+            state:"Sikkim"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Gurudongmar_Lake"
+    },
+    {
+        name:"Mawsynram View Point",
+        img_url:"https://travenjo.com/wp-content/uploads/2022/06/Seven-Sisters-Falls-1-gaimg.jpg?x58748",
+        loc_info:{
+            city:"Mawsynram",
+            state:"Meghalaya"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Mawsynram"
+    },
+    {
+        name:"Umiam Lake View Point",
+        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/b3/91/22/amazing-umium-lake.jpg?w=1200&h=-1&s=1",
+        loc_info:{
+            city:"Shillong",
+            state:"Meghalaya"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Umiam_Lake"
     },
  ]
