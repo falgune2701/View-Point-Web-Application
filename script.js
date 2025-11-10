@@ -89,7 +89,7 @@ const createViewpointCard = (viewPointsInfo) => {
         ratingEle.appendChild(starIcon);
 
         const starText = createElement("span");
-        starText.innerText = viewPoint.star;
+        starText.innerText = viewPoint.rating;
         ratingEle.appendChild(starText);
         butAndRatingCon.appendChild(moreInfoEle);
         butAndRatingCon.appendChild(ratingEle)
@@ -114,7 +114,7 @@ function getFilterData () {
 
         if(ratingValue > 0){
             filteredArrOfViewpoint = searchValue?.length > 0 ? filteredArrOfViewpoint : viewPointsInfo;
-            filteredArrOfViewpoint = filteredArrOfViewpoint.filter((viewPoint) => ratingValue <= viewPoint.star);
+            filteredArrOfViewpoint = filteredArrOfViewpoint.filter((viewPoint) => ratingValue <= viewPoint.rating);
         }
         return filteredArrOfViewpoint;
 }
@@ -124,7 +124,7 @@ function getFilterData () {
     searchValue = event.target.value.toLowerCase();
     let filterBySearch = getFilterData();
     mainContainer.innerHTML = "";
-    createViewpointCard(filterBySearch);    
+    createViewpointCard(searchValue ? filterBySearch : viewPointsInfo);    
 }
 // end handleSearch function
 
@@ -152,5 +152,5 @@ function debounce (callback, delay){
 const debouncedInput =  debounce(handleSearch, 800); 
 searchInput.addEventListener("keyup", debouncedInput);
 
-createViewpointCard(viewPointsInfo);
+createViewpointCard(viewPointsInfo)
 

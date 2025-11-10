@@ -7,7 +7,7 @@
             state:"West Bengal"
         },
         moreInfoUrl: "https://en.wikipedia.org/wiki/Tiger_Hill,_Darjeeling",
-        star: "8.5"
+        rating: "8.5"
     },
     {
         name:"Nandi Hills",
@@ -17,7 +17,7 @@
             state:"Karnataka"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nandi_Hills,_India",
-        star: "7.0"
+        rating: "7.0"
     },
     {
         name:"Rohtang Pass",
@@ -27,17 +27,17 @@
             state:"Himachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Rohtang_Pass",
-        star: "8.0"
+        rating: "8.0"
     },
     {
-        name:"Snow View Point",
+        name:"Snow",
         img_url:"https://www.easeindiatrip.com/blog/wp-content/uploads/2024/12/Snow-View-Point-Nainital.jpg",
         loc_info:{
             city:"Nainital",
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital",
-        star: "7.0"
+        rating: "7.0"
     },
     {
         name:"Arthur's Seat",
@@ -47,17 +47,17 @@
             state:"Maharashtra"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Arthur%27s_Seat",
-        star: "7.4"
+        rating: "7.4"
     },
     {
-        name:"Kufri View Point",
+        name:"Kufri",
         img_url:"https://moxtain.s3.ap-south-1.amazonaws.com/blogs/ThingsToDoInKufriValley/Kufri.jpg",
         loc_info:{
             city:"Shimla",
             state:"Himachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kufri,_India",
-        star: "6.5"
+        rating: "6.5"
     },
     {
         name:"Echo Point",
@@ -67,7 +67,7 @@
             state:"Kerala"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Echo_Point",
-        star: "6.0"
+        rating: "6.0"
     },
     {
         name:"Anjaneri Hills",
@@ -77,7 +77,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Anjaneri",
-        star:"7.5"
+        rating:"7.5"
     },
     {
         name:"Kodaikanal Pillar Rocks",
@@ -87,7 +87,7 @@
             state:"Tamil Nadu"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kodaikanal",
-        star: "7.5"
+        rating: "7.5"
     },
     {
         name:"Doddabetta Peak",
@@ -97,7 +97,7 @@
             state:"Tamil Nadu"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Doddabetta",
-         star: "7.0"
+         rating: "7.0"
     },
     {
         name:"Coonoor Dolphin’s Nose",
@@ -107,7 +107,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Dolphin%27s_Nose,_Coonoor",
-        star: "8.0"
+        rating: "8.0"
     },
     {
         name:"Wilson Hills",
@@ -117,7 +117,7 @@
             state:"Gujarat"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Wilson_Hills",
-         star: "7.0"
+         rating: "7.0"
     },
     {
          name:"Tiffin Top",
@@ -127,7 +127,7 @@
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nainital",
-        star: "7.5"
+        rating: "7.5"
     },
     {
          name:"Gulmarg Gondola Peak",
@@ -137,17 +137,17 @@
             state:"Jammu & Kashmir"
         },
          moreInfoUrl:"https://en.wikipedia.org/wiki/Gulmarg_Gondola",
-         star: "9.5"
+         rating: "9.5"
     },
     {
-        name:"Patnitop View Point",
+        name:"Patnitop",
         img_url:"https://go2kashmir.com/kashmir/img/patnitop-view-bg.jpg",
         loc_info:{
             city:"Patnitop",
             state:"Jammu & Kashmir"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Patnitop",
-        star: "7.0"
+        rating: "7.0"
     },
     {
         name:"Nubra Valley",
@@ -157,7 +157,7 @@
             state:"Ladakh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Nubra",
-        star: "9.0"
+        rating: "9.0"
     },
     {
         name:"Shanti Stupa",
@@ -167,7 +167,7 @@
             state:"Ladakh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Shanti_Stupa,_Ladakh",
-        star: "8.0"
+        rating: "8.0"
     },
      {
         name:"Zuluk Zig Zag",
@@ -177,17 +177,17 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Dzuluk",
-        star: "9.0"
+        rating: "9.0"
     },
     {
-        name:"Phugtal Monastery View",
+        name:"Phugtal Monastery",
         img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMV-3ljaoj8Nc6_v9thO4-rQffHNfm6X3uMA&s",
         loc_info:{
             city:"Zanskar",
             state:"Ladakh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Phugtal_Monastery",
-        star: "9.5"
+        rating: "9.5"
     },
     {
         name:"Chopta Tungnath",
@@ -197,17 +197,17 @@
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Chopta",
-        star: "9.0"
+        rating: "9.0"
     },
     {
-        name:"Ranikhet Majkhali View",
+        name:"Ranikhet Majkhali",
         img_url:"https://www.trodly.com/pictures/destination/x3200.jpg.pagespeed.ic.fyaXgIMKw7.jpg",
         loc_info:{
             city:"Ranikhet",
             state:"Uttarakhand"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Ranikhet",
-        star: "8.0"
+        rating: "8.0"
     },
     {
         name:"Kurseong Eagle’s Crag",
@@ -217,7 +217,7 @@
             state:"West Bengal"
         },
         moreInfoUrl:"https://darjeelingoffbeat.com/eagles-crag-kurseong/",
-        star: "7.5"
+        rating: "7.5"
     },
     {
         name:"Kalimpong Deolo Hill",
@@ -227,7 +227,7 @@
             state:"West Bengal"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Deolo_Hill",
-        star: "8.0"
+        rating: "8.0"
     },
     {
         name:"Tawang Hilltop",
@@ -237,27 +237,27 @@
             state:"Arunachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Tawang",
-        star: "8.5"
+        rating: "8.5"
     },
     {
-        name:"Bomdila View Point",
+        name:"Bomdila",
         img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2RJZIP2ynF9-wPdSOIzamNqC17HkmrrHlkQ&s",
         loc_info:{
             city:"Bomdila",
             state:"Arunachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Bomdila",
-        star: "7.5"
+        rating: "7.5"
     },
     {
-        name:"Ziro Valley View",
+        name:"Ziro Valley",
         img_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/A_cross_section_of_luch_green_valley_of_Ziro.jpg/800px-A_cross_section_of_luch_green_valley_of_Ziro.jpg",
         loc_info:{
             city:"Ziro",
             state:"Arunachal Pradesh"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Ziro",
-        star: "9.0"
+        rating: "9.0"
     },
     {
         name:"Mount Kanchenjunga",
@@ -267,7 +267,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kangchenjunga",
-        star: "10"
+        rating: "10"
     },
     {
         name:"Sandakphu Peak",
@@ -277,7 +277,7 @@
             state:"West Bengal"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Sandakphu",
-        star: "9.5"
+        rating: "9.5"
     },
     {
         name:"Lachen Gurudongmar",
@@ -287,7 +287,7 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Gurudongmar_Lake",
-        star: "9.0"
+        rating: "9.0"
     },
     {
         name:"Lachung Yumthang Valley",
@@ -297,17 +297,17 @@
             state:"Sikkim"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Yumthang_Valley_of_Flowers",
-        star: "8.5"
+        rating: "8.5"
     },
     {
-        name:"Rajmachi Fort View",
+        name:"Rajmachi Fort",
         img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbStY1ODQqT1fAUSRjDqn6A2sp_iRtUAZz6THerXs-HZPhW3Xk3-k82KMNEPaQA5CHmw&usqp=CAU",
         loc_info:{
             city:"Lonavala",
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Rajmachi",
-        star: "8.5"
+        rating: "8.5"
     },
     {
         name:"Lion’s Point",
@@ -317,17 +317,17 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Lonavala",
-        star: "7.5"
+        rating: "7.5"
     },
     {
-        name:"Panhalgad View",
+        name:"Panhalgad",
         img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/48/e5/23/panhala-fort.jpg?w=1200&h=-1&s=1",
         loc_info:{
             city:"Kolhapur",
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Panhala",
-        star:"8.0"
+        rating:"8.0"
     },
     {
         name:"Kalsubai Peak",
@@ -337,27 +337,27 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Kalsubai",
-        star: "8.5"
+        rating: "8.5"
     },
     {
-        name:"Harihar Fort View",
+        name:"Harihar Fort",
         img_url:"https://www.traveltwilight.com/wp-content/uploads/2021/09/260789849_1097438380994422_6987292434751836812_n-e1658515264119.jpg",
         loc_info:{
             city:"Igatpuri",
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort",
-        star: "9.0"
+        rating: "9.0"
     },
     {
-        name:"Ratangad Fort View",
+        name:"Ratangad Fort",
         img_url:"https://hblimg.mmtcdn.com/content/hubble/img/Bhandardara/mmt/activities/m_activities_bhandardara_ratangad_fort_l_399_600.jpg",
         loc_info:{
             city:"Bhandardara",
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Harihar_fort",
-        star: "8.5"
+        rating: "8.5"
     },
     {
         name:"Louisa Point",
@@ -367,7 +367,7 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://ceb.wikipedia.org/wiki/Louisa_Point",
-        star: "8.0"
+        rating: "8.0"
     },
     {
         name:"Echo Point",
@@ -377,46 +377,47 @@
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Matheran",
-        star: "7.0"
+        rating: "7.0"
     },
     {
-        name:"Sajjangad Hill View",
-        img_url:"https://enjoyweekends.com/travel-vacation-holiday-resort/assets/images/Destination/Sajjangad1.jpg",
+        name:"Sajjangad Hill",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Mvq7BZsuMv0Xd2m21TZugPxob4mnvGnqj_MMCwCDATILl8HCzNJie4ZTOQIEcRZTGPU&usqp=CAU",
         loc_info:{
             city:"Satara",
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Sajjangad",
-        star: "7.5"
+        rating: "7.5"
     },
     {
-        name:"Ajinkyatara Fort View",
+        name:"Ajinkyatara Fort",
         img_url:"https://kaspatharflowervalley.com/wp-content/uploads/2023/06/ajinkyatara-1.jpg",
         loc_info:{
             city:"Satara",
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Ajinkyatara",
-        star: "8.0"
+        rating: "8.0"
     },
     {
-        name:"Torana Fort View",
+        name:"Torana Fort",
         img_url:"https://dq1q7qkthxkc0.cloudfront.net/UpdatedMedia/4c506fc4-4457-4d83-87d0-c6e03c966c7a.webp",
         loc_info:{
             city:"Pune",
             state:"Maharashtra"
         },
         moreInfoUrl:"https://en.wikipedia.org/wiki/Torna_Fort",
-        star: "9.0"
+        rating: "9.0"
     },
     {
-        name:"Tikona Fort View",
+        name:"Tikona Fort",
         img_url:"https://dq1q7qkthxkc0.cloudfront.net/thumbnails/411x274/UpdatedMedia/e297e935-9246-4fcf-8731-eacbe9380ca5.webp",
         loc_info:{
             city:"Pune",
             state:"Maharashtra"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Tikona"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Tikona",
+        rating: "8.4"
     },
     {
         name:"Dzukou Valley",
@@ -425,7 +426,8 @@
             city:"Viswema",
             state:"Nagaland"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Dz%C3%BCko_Valley"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Dz%C3%BCko_Valley",
+        rating: "9.7"
     },
     {
         name:"Solang Valley",
@@ -434,7 +436,8 @@
             city:"Manali",
             state:"Himachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Solang_Valley"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Solang_Valley",
+        rating: "9.3"
     },
     {
         name:"Triund Hill",
@@ -443,16 +446,18 @@
             city:"McLeod Ganj",
             state:"Himachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Triund"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Triund",
+        rating: "9.8"
     },
     {
-        name:"Khajjiar View",
+        name:"Khajjiar",
         img_url:"https://hblimg.mmtcdn.com/content/hubble/img/Dest_img/mmt/activities/m_Khajjiar_destination_image_2025jan_1_l_768_1152.jpg",
         loc_info:{
             city:"Dalhousie",
             state:"Himachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Khajjiar_Lake"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Khajjiar_Lake",
+        rating: "9.5"
     },
     {
         name:"Betaab Valley",
@@ -461,7 +466,8 @@
             city:"Pahalgam",
             state:"Jammu & Kashmir"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Betaab_Valley"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Betaab_Valley",
+        rating: "9.2"
     },
     {
         name:"Pahalgam Aru Valley",
@@ -470,7 +476,8 @@
             city:"Pahalgam",
             state:"Jammu & Kashmir"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Aru,_Jammu_and_Kashmir"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Aru,_Jammu_and_Kashmir",
+        rating: "9.4"
     },
     {
         name:"Umiam Lake",
@@ -479,16 +486,18 @@
             city:"Shillong",
             state:"Meghalaya"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Umiam_Lake"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Umiam_Lake",
+        rating: "8.7"
     },
     {
-        name:"Mawsynram View",
+        name:"Mawsynram",
         img_url:"https://www.tataneu.com/pages/travel/_next/image?url=https%3A%2F%2Fd1msew97rp2nin.cloudfront.net%2Fprodin%2Ftntravel%2Fblogimages%2Ffaqs-about-mawsynram-wettest-place-on-earth-explained-001d764b-94fe-4353-ae1a-143d568ea9b5.webp&w=3840&q=75",
         loc_info:{
             city:"Mawsynram",
             state:"Meghalaya"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Mawsynram"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Mawsynram",
+        rating: "9.1"
     },
     {
         name:"Nohkalikai Falls",
@@ -497,7 +506,8 @@
             city:"Cherrapunji",
             state:"Meghalaya"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nohkalikai_Falls"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nohkalikai_Falls",
+        rating: "9.9"
     },
     {
         name:"Mechuka Valley",
@@ -506,7 +516,8 @@
             city:"Mechuka",
             state:"Arunachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Mechuka"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Mechuka",
+        rating: "9.6"
     },
     {
         name:"Sela Pass",
@@ -515,16 +526,18 @@
             city:"Tawang",
             state:"Arunachal Pradesh"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Sela_Pass"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Sela_Pass",
+        rating: "9.8"
     },
     {
-        name:"Nathu La Pass View Point",
+        name:"Nathu La Pass",
         img_url:"https://www.tusktravel.com/blog/wp-content/uploads/2019/08/Gangtok-Nathula-Pass.jpg",
         loc_info:{
             city:"Gangtok",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La",
+        rating: "9.6"
     },
     {
         name:"Gurudongmar Lake",
@@ -533,7 +546,8 @@
             city:"Lachen",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La",
+        rating: "9.9"
     },
     {
         name:"George Everest Peak",
@@ -542,42 +556,257 @@
             city:"Mussoorie",
             state:"Uttarakhand"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Nathu_La",
+        rating: "9.0"
     },
     {
-        name:"Tsomgo Lake View Point",
+        name:"Tsomgo Lake",
         img_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg/1200px-Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg",
         loc_info:{
             city:"Gangtok",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Lake_Tsomgo"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Lake_Tsomgo",
+        rating: "9.5"
     },
     {
-        name:"Gurudongmar Lake View Point",
+        name:"Gurudongmar Lake",
         img_url:"https://s7ap1.scene7.com/is/image/incredibleindia/gurudongmar-lake-mangan-sikkim-2-attr-hero?qlt=82&ts=1726655839775",
         loc_info:{
             city:"Lachen",
             state:"Sikkim"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Gurudongmar_Lake"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Gurudongmar_Lake",
+        rating: "9.9"
     },
     {
-        name:"Mawsynram View Point",
+        name:"Mawsynram",
         img_url:"https://travenjo.com/wp-content/uploads/2022/06/Seven-Sisters-Falls-1-gaimg.jpg?x58748",
         loc_info:{
             city:"Mawsynram",
             state:"Meghalaya"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Mawsynram"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Mawsynram",
+        rating: "9.1"
     },
     {
-        name:"Umiam Lake View Point",
+        name:"Umiam Lake",
         img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/b3/91/22/amazing-umium-lake.jpg?w=1200&h=-1&s=1",
         loc_info:{
             city:"Shillong",
             state:"Meghalaya"
         },
-        moreInfoUrl:"https://en.wikipedia.org/wiki/Umiam_Lake"
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Umiam_Lake",
+        rating: "8.8"
+    },
+    {
+        name:"Laitlum Canyon",
+        img_url:"https://travenjo.com/wp-content/uploads/2019/06/Laitlum-Canyons-Scenic-View.jpg?x58748",
+        loc_info:{
+            city:"Shillong",
+            state:"Meghalaya"
+        },
+        moreInfoUrl:"https://bn.wikipedia.org/wiki/%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0:Laitlum_Canyon_(3).jpg",
+        rating: "9.4"
+    },
+    {
+        name:"Betaab Valley",
+        img_url:"https://hblimg.mmtcdn.com/content/hubble/img/pahalgam/mmt/activities/m_activities_pahalgam_betaab_valley_l_404_607.jpg",
+        loc_info:{
+            city:"Shillong",
+            state:"Meghalaya"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Betaab_Valley",
+        rating: "9.1"
+    },
+    {
+        name:"Aru",
+        img_url:"https://taleof2backpackers.com/wp-content/uploads/2021/08/Aru-Valley-Travel-Guide-1.jpg",
+        loc_info:{
+            city:"Anantnag",
+            state:"Jammu and Kashmir"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Aru,_Jammu_and_Kashmir",
+        rating: "8.9"
+    },
+    {
+        name:"Tarsar Marsar Lake",
+        img_url:"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1699091809/bbj/vs7sg30py6zmfvtbdykl.avif",
+        loc_info:{
+            city:"Pahalgam",
+            state:"Jammu and Kashmir"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Tarsar_Lake",
+        rating: "9.3"
+    },
+    {
+        name:"Sheshnag Lake",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1ewpUil2JBuYSuTw_d3TAi1mXmxux1DEbw&s",
+        loc_info:{
+            city:"Anantnag",
+            state:"Jammu and Kashmir"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Sheshnag_Lake",
+        rating: "8.7"
+    },
+    {
+        name:"Zojila Pass",
+        img_url:"https://cdn1.tripoto.com/media/filter/nl/img/2380291/Image/1699855690_zojila_pass_ladakh1.jpg.webp",
+        loc_info:{
+            city:"Drass",
+            state:"Ladakh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Zoji_La",
+        rating: "8.5"
+    },
+    {
+        name:"Magnetic Hill",
+        img_url:"https://t3.ftcdn.net/jpg/04/49/42/38/360_F_449423890_46n7Wrpi1AxioLWwjxm6mEFEp4QVxNC4.jpg",
+        loc_info:{
+            city:"Leh",
+            state:"Ladakh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Magnetic_Hill_(India)",
+        rating: "8.8"
+    },
+    {
+        name:"Khardung La",
+        img_url:"https://www.ekashmirtourism.com/wp-content/uploads/2023/07/khardung-la-pass-in-ladakh.jpg",
+        loc_info:{
+            city:"Leh",
+            state:"Ladakh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Khardung_La1",
+        rating: "9.0"
+    },
+    {
+        name:"Baralacha La Pass",
+        img_url:"https://iasgyan.in/ig-uploads/images/BARA_LACHA_LA_PASS.jpg",
+        loc_info:{
+            city:"Lahaul",
+            state:"Himachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Bara-lacha_la",
+        rating: "8.6"
+    },
+    {
+        name:"Kunzum Pass",
+        img_url:"https://www.exoticmiles.com/wp-content/uploads/2020/06/Kunzum-Pass.jpg",
+        loc_info:{
+            city:"Kaza",
+            state:"Himachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Kunzum_Pass",
+        rating: "8.9"
+    },
+    {
+        name:"Pratapgad Fort",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxoMlzqLAJ-kWzOU-ct3j4d5KVHu2gvkfZwQ&s",
+        loc_info:{
+            city:"Satara",
+            state:"Maharashtra"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Pratapgad",
+        rating: "7.8"
+    },
+    {
+        name:"Kate’s Point",
+        img_url:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6e/93/f0/kate-s-point.jpg?w=1200&h=-1&s=1",
+        loc_info:{
+            city:"Mahabaleshwar",
+            state:"Maharashtra"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Mahabaleshwar",
+        rating: "8.3"
+    },
+     {
+        name:"Garbett Point",
+        img_url:"https://content.jdmagicbox.com/comp/matheran/g2/9999p2148.2148.180529161336.z9g2/catalogue/garbett-point-matheran-c5i0p07nnh.jpg",
+        loc_info:{
+            city:"Matheran",
+            state:"Maharashtra"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Matheran#:~:text=History,-Matheran%20in%201874&text=Matheran%20was%20identified%20by%20Hugh,from%20the%20regional%20summer%20heat.",
+        rating: "8.1"
+    },
+    {
+        name:"Deomali Peak",
+        img_url:"https://tourmyodisha.com/wp-content/uploads/2021/08/21641043_1905939676315191_8022575876004735507_o.jpg",
+        loc_info:{
+            city:"Koraput",
+            state:"Odisha"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Deomali_(mountain)https://en.wikipedia.org/wiki/Mahabaleshwar",
+        rating: "7.9"
+    },
+    {
+        name:"Ponmudi Hills",
+        img_url:"https://res.cloudinary.com/kmadmin/image/upload/v1725431798/kiomoi/Ponmudi_9215.jpg",
+        loc_info:{
+            city:"Thiruvananthapuram",
+            state:"Kerala"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Ponmudi",
+        rating: "8.7"
+    },
+    {
+        name:"Chembra Peak",
+        img_url:"https://static.thehosteller.com/blogimage/8-1721715743636.jpg",
+        loc_info:{
+            city:"Wayanad",
+            state:"Kerala"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Chembra_Peak",
+        rating: "9.0"
+    },
+    {
+        name:"Paithalmala",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKqv4XTQJu5NEip1kNnU5IORLs6d5X8xU-kA&s",
+        loc_info:{
+            city:"Kannur",
+            state:"Kerala"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Paithalmala",
+        rating: "8.4"
+    },
+    {
+        name:"Kodachadri Peak",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKkDm-EGzoB3DGk9fp2CSb3p-goQif18AlQQ&s",
+        loc_info:{
+            city:"Shimoga",
+            state:"Karnataka"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Kodachadri",
+        rating: "8.9"
+    },
+    {
+        name:"Mullayanagiri Peak",
+        img_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSvG45UhEmuLn7THvARXDLCIxk5SYobDhDvQ&s",
+        loc_info:{
+            city:"Chikmagalur",
+            state:"Karnataka"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Kudremukha",
+        rating: "9.2"
+    },
+    {
+        name:"Baba Budangiri Hills",
+        img_url:"https://www.shutterstock.com/image-photo/steep-pointed-baba-budangiri-hills-600nw-2229279545.jpg",
+        loc_info:{
+            city:"Chikmagalur",
+            state:"Karnataka"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Baba_Budangiri",
+        rating: "8.8"
+    },
+    {
+        name:"Hatu Peak",
+        img_url:"https://s7ap1.scene7.com/is/image/incredibleindia/hatu-peak-shimla-himachal-pradesh-4-attr-hero?qlt=82&ts=1742170838853",
+        loc_info:{
+            city:"Narkanda",
+            state:"Himachal Pradesh"
+        },
+        moreInfoUrl:"https://en.wikipedia.org/wiki/Hatu_peak",
+        rating: "9.1"
     },
  ]
